@@ -1,0 +1,49 @@
+body {
+    background: #0f2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.piano{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.white{
+    height: 420px;
+    width: 110px;
+    background-color: aliceblue;
+    color: rgb(1, 7, 12);
+    font-size: 20px;
+}
+
+.white.active{
+    color: aliceblue;
+}
+
+.Black{
+    height: 250px;
+    width: 70px;
+    background-color: black;
+    z-index: 2;
+    margin-left: -3%;
+    margin-right: -3%;
+    color: aliceblue;
+}
+    
+
+.Black.active{
+    color: black;
+}
+
+.key{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    padding-bottom: 50px;
+    font-size: 27px;
+    font-family: 'Abril Fatface', cursive;
+}
